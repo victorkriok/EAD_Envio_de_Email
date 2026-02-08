@@ -10,7 +10,7 @@ public class Program
         Usuario usuario = new Usuario
         {
             Nome = "Victor",
-            Email = "vkriok@gmail.com", // ⚠️ Use SEU email
+            Email = "vkriok@gmail.com",
             Senha = "12345",
             DataNascimento = new DateTime(2000, 1, 1)
         };
