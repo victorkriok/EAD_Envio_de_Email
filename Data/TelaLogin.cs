@@ -16,11 +16,11 @@ namespace Código.Data
             this.emailService = new EmailService(
                 smtpServer: "smtp.gmail.com",      // Servidor SMTP
                 smtpPort: 587,                     // Porta (587 para TLS)
-                emailRemetente: "dantzinff@gmail.com", // SEU EMAIL AQUI
-                senhaRemetente: "fuke qjco hwda fshd",     // SUA SENHA/APP PASSWORD
-                nomeRemetente: "Sistema de Login"     // Nome que aparecerá
+                emailRemetente: "dantzinff@gmail.com", 
+                senhaRemetente: "fuke qjco hwda fshd",     
+                nomeRemetente: "Sistema de Login"     
             );
-            // ============================================================
+            
         }
 
         public async Task LoginAsync(string senha, DateTime dataNascimento)
