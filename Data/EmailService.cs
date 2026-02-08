@@ -22,7 +22,6 @@ namespace Código.Data
             _nomeRemetente = nomeRemetente;
         }
 
-        // VERSÃO 2: Construtor simplificado (opcional)
         public EmailService(string emailRemetente, string senhaRemetente)
             : this("smtp.gmail.com", 587, emailRemetente, senhaRemetente, "Sistema de Login")
         {
