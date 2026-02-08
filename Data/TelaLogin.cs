@@ -13,9 +13,6 @@ namespace Código.Data
         {
             this.usuario = usuario;
             
-            // ============================================================
-            // ⚠️ CONFIGURE SEUS DADOS DE EMAIL AQUI ⚠️
-            // ============================================================
             this.emailService = new EmailService(
                 smtpServer: "smtp.gmail.com",      // Servidor SMTP
                 smtpPort: 587,                     // Porta (587 para TLS)
